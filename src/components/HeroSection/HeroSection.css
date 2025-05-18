@@ -1,0 +1,31 @@
+.hero {
+  padding: 32px 16px;         
+  text-align: center;
+  background: #f1f1f1;
+  background: linear-gradient(to right, #ECFAE5, #ffffff);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  max-width: 1200px;
+  margin: 0 auto;
+  border-radius: 20px;
+  margin-top: 10px;
+}
+.hero h2 {
+  font-size: 30px;
+  margin-bottom: 8px;         
+  color: #2c3e50;
+}
+.hero p {
+  font-size: clamp(14.4px, 2.5vw, 19.2px);
+  color: #555;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+@media (max-width: 480px) {
+  .hero {
+    padding: 24px 16px;     
+  }
+  .hero h2 {
+    margin-bottom: 6px;      
+  }
+}

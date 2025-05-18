@@ -1,0 +1,28 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #333;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+* {
+  box-sizing: border-box;
+    background: rgba(221, 246, 210, 0.1);
+}
+
+html {
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}

@@ -1,0 +1,16 @@
+.card-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 32px;            
+  padding: 32px 16px;   
+  background-color: #f9f9f9;
+  background: rgba(221, 246, 210, 0.1);
+}
+
+@media (max-width: 768px) {
+  .card-list {
+    flex-direction: column;
+    align-items: center;
+  }
+}
