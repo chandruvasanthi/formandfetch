@@ -2,14 +2,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 60vh;
   box-sizing: border-box;
   padding: 16px;
   background: rgba(221, 246, 210, 0.1);
+  min-height: 100vh;
 }
 .contact-form {
-  width: 100%;
-  max-width: 500px;
+  width: 50%;
+  min-width: 320px;
   padding: 64px 32px;
   background: linear-gradient(to right, #ECFAE5, #ffffff);
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
@@ -19,9 +19,17 @@
   gap: 16px;
   transition: transform 0.3s ease;
   box-sizing: border-box;
-  height: 450px;
   align-items: center;
   justify-content: center;
+}
+.input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 100%;
+}
+.input-group input{
+ border-radius: 5px;
 }
 .contact-form:hover {
   transform: translateY(-3px);
@@ -42,6 +50,7 @@
   font-family: inherit;
   outline: none;
   transition: border-color 0.3s;
+  border-radius: 5px;
 }
 .contact-form input:focus,
 .contact-form textarea:focus {
@@ -51,6 +60,7 @@
 .contact-form textarea {
   resize: vertical;
   min-height: 120px;
+  width: 100%;
 }
 .contact-form button {
   background-color: #5F8B4C;
